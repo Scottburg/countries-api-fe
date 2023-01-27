@@ -8,6 +8,7 @@ const routes = [
     path: '/:countryName',
     name: 'CountryDetails',
     component: CountryDetails,
+    props: true,
   },
 ];
 
