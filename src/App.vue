@@ -3,7 +3,10 @@ import CountrySearchHome from './components/CountrySearchHome.vue';
 </script>
 
 <template>
-  <CountrySearchHome />
+  <!-- <CountrySearchHome /> -->
+  <div>HEADER HERE WITH DARK MODE TOGGLE - FLEX</div>
+  <router-link to="/">Home</router-link>
+  <router-view />
 </template>
 
 <style scoped>

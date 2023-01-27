@@ -70,7 +70,6 @@ export default {
 
 <template>
   <main>
-    <div>HEADER HERE WITH DARK MODE TOGGLE - FLEX</div>
     <article>
       <input
         type="text"
@@ -78,8 +77,7 @@ export default {
         v-model="inputValue"
         v-on:input="filterCountries"
       />
-      <button @click="filterCountries">Search</button>
-      <div>DROP DOWN SELECTOR FOR REGION</div>
+      <div>REGION</div>
       <select
         name="filter-by-region"
         id="filter-by-region"
