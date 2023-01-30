@@ -36,6 +36,11 @@ export default {
 
     // Try to get this working with provide inject to allow access to this at country page level
   },
+
+  // provide() {
+  //   return { countriesData: this.countries };
+  // },
+
   methods: {
     async getCountries() {
       try {

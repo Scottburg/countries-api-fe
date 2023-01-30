@@ -1,13 +1,11 @@
 <script>
 export default {
-  props: { country: { type: Object, required: true } },
-  created() {},
+  // inject: ['countriesData'],
+  // created() {
+  //   console.log(this.countriesData); // injected value
+  // },
   methods: {
     showDetails() {
-      console.log(
-        '🚀 ~ file: CountryCard.vue:9 ~ showDetails ~ props.country.name.common.toLowerCase()',
-        props.country.name.common.toLowerCase()
-      );
       const currentCountry = props.country.name.common.toLowerCase();
       router.push({ name: `/${currentCountry}`, params: this.country });
     },
