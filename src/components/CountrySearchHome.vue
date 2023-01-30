@@ -33,6 +33,8 @@ export default {
       .catch((error) => {
         console.error(error);
       });
+
+    // Try to get this working with provide inject to allow access to this at country page level
   },
   methods: {
     async getCountries() {
